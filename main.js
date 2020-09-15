@@ -18,6 +18,7 @@ for (const likedButton of likedButtons) {
         glyph.classList.add("activated-heart")
       } else {
         glyph.innerHTML = EMPTY_HEART
+        glyph.classList.remove("activated-heart")
       }
     })
     .catch(function(error) {
