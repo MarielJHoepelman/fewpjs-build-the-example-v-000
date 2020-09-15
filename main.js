@@ -26,9 +26,15 @@ for (const likedButton of likedButtons) {
       // Display the error modal by removing the .hidden class
       // Display the server error message in the modal
       // Use setTimeout to hide the modal after 5 seconds (add the .hidden class)
+
+      let hideError = function() {
+        document.getElementById("modal-message").classList.add("hidden")
+      }
+
       let div = document.getElementById("modal")
       div.classList.remove("hidden")
       document.getElementById("modal-message").innerHTML = error
+
     });
   })
 }
