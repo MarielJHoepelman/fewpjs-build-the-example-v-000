@@ -24,8 +24,8 @@ for (const likedButton of likedButtons) {
     .catch(function(error) {
       console.log('aaaaaaa', error)
       // Display the error modal by removing the .hidden class
-      let div = document.querySelectorAll("div")
-      
+      let div = document.querySelectorAll("div")[0]
+      div.classList.remove("hidden")
       // Display the server error message in the modal
       // Use setTimeout to hide the modal after 5 seconds (add the .hidden class)
     });
