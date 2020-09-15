@@ -7,8 +7,8 @@ const FULL_HEART = '♥'
 const glyphs = document.getElementsByClassName("like-glyph")
 
 for (const glyph of glyphs) {
-     console.log;
-   }
+    console.log;
+}
 
 
 
