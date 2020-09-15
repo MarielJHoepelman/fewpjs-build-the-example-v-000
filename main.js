@@ -25,7 +25,7 @@ for (const likedButton of likedButtons) {
     })
     .catch(function(error) {
 
-      let hideError = function() {
+      const hideError = function() {
         document.getElementById("modal").classList.add("hidden")
       }
 
