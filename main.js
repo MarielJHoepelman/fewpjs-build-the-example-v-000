@@ -22,7 +22,7 @@ for (const likedButton of likedButtons) {
   likedButton.addEventListener('click', event =>  {
     mimicServerCall()
     .then(function(object) {
-      // let glyph = likedButton.querySelector(".like-glyph");
+      let glyph = likedButton.querySelector(".like-glyph");
       //
       // if (glyph.innerHTML == EMPTY_HEART){
       //   glyph.innerHTML = FULL_HEART
