@@ -34,6 +34,8 @@ for (const likedButton of likedButtons) {
       let div = document.getElementById("modal")
       div.classList.remove("hidden")
       document.getElementById("modal-message").innerHTML = error
+      setTimeout(hideError, 5000);
+
 
     });
   })
