@@ -11,7 +11,7 @@ for (const glyph of glyphs) {
     // console.log(event.target)
     mimicServerCall()
     .then(function(object) {
-      console.log(glyph)
+      console.log(event.target)
     })
     .catch(function(error) {
       console.log('aaaaaaa', error)
