@@ -4,14 +4,14 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-const glyphs = document.getElementsByClassName("like")
+const likedButtons = document.getElementsByClassName("like")
 
-for (const glyph of glyphs) {
+for (const likedButton of likedButtons) {
   glyph.addEventListener('click', event =>  {
     // console.log(event.target)
     mimicServerCall()
     .then(function(object) {
-      
+      let g =
       console.log(glyph)
 
     })
