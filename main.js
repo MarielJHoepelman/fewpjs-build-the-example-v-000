@@ -23,7 +23,7 @@ for (const likedButton of likedButtons) {
     .catch(function(error) {
       console.log('aaaaaaa', error)
     });
-  })
+  });
 }
 
 
