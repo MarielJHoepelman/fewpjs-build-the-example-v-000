@@ -8,7 +8,7 @@ const glyphs = document.getElementsByClassName("like-glyph")
 
 for (const glyph of glyphs) {
   glyph.addEventListener('click', event =>  {
-    
+    console.log(event.target)
   })
 }
 
