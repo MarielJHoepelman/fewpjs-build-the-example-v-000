@@ -8,7 +8,6 @@ const likedButtons = document.getElementsByClassName("like")
 
 for (const likedButton of likedButtons) {
   likedButton.addEventListener('click', event =>  {
-    // console.log(event.target)
     mimicServerCall()
     .then(function(object) {
       let glyph = likedButton.querySelector(".like-glyph");
@@ -22,7 +21,7 @@ for (const likedButton of likedButtons) {
       }
     })
     .catch(function(error) {
-      
+
       let hideError = function() {
         document.getElementById("modal").classList.add("hidden")
       }
