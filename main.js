@@ -6,7 +6,7 @@ const FULL_HEART = '♥'
 
 const likedButtons = document.getElementsByClassName("like")
 
-function switchGlyph() {
+function switchGlyph(glyph) {
   if (glyph.innerHTML == EMPTY_HEART){
     glyph.innerHTML = FULL_HEART
     glyph.classList.add("activated-heart")
