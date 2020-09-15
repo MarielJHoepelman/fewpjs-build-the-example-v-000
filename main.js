@@ -11,7 +11,7 @@ for (const likedButton of likedButtons) {
     // console.log(event.target)
     mimicServerCall()
     .then(function(object) {
-      let g =
+      // let glyph = document.getElementsByClassName()
       console.log(glyph)
 
     })
