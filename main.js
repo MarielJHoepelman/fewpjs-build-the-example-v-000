@@ -21,7 +21,7 @@ for (const likedButton of likedButtons) {
     mimicServerCall()
     .then(function(object) {
       let glyph = likedButton.querySelector(".like-glyph");
-      switchGlyph(glyph)
+      toggleGlyph(glyph)
     })
     .catch(function(error) {
 
