@@ -14,7 +14,7 @@ for (const glyph of glyphs) {
       console.log(object)
     })
     .catch(function(error) {
-      console.log(error)
+      console.log('aaaaaaa', error)
     });
   })
 }
