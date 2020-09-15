@@ -12,6 +12,7 @@ for (const likedButton of likedButtons) {
     mimicServerCall()
     .then(function(object) {
       let glyph = likedButton.querySelector(".like-glyph");
+      
       glyph.innerHTML = FULL_HEART
       glyph.classList.add("activated-heart")
     })
