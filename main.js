@@ -7,7 +7,7 @@ const FULL_HEART = '♥'
 const likedButtons = document.getElementsByClassName("like")
 
 for (const likedButton of likedButtons) {
-  glyph.addEventListener('click', event =>  {
+  likedButton.addEventListener('click', event =>  {
     // console.log(event.target)
     mimicServerCall()
     .then(function(object) {
