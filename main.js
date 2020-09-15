@@ -8,7 +8,8 @@ const glyphs = document.getElementsByClassName("like")
 
 for (const glyph of glyphs) {
   glyph.addEventListener('click', event =>  {
-    console.log(event.target)
+    // console.log(event.target)
+    mimicServerCall()
   })
 }
 
