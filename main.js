@@ -8,6 +8,8 @@ const glyphs = document.getElementsByClassName("like-glyph")
 
 
 
+
+
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
 //------------------------------------------------------------------------------
