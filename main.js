@@ -19,11 +19,11 @@ for (const likedButton of likedButtons) {
       } else {
         glyph.innerHTML = EMPTY_HEART
       }
-    }
+    });
     .catch(function(error) {
       console.log('aaaaaaa', error)
     });
-  });
+  }
 }
 
 
