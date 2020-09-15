@@ -28,7 +28,7 @@ for (const likedButton of likedButtons) {
       // Use setTimeout to hide the modal after 5 seconds (add the .hidden class)
 
       let hideError = function() {
-        document.getElementById("modal-message").classList.add("hidden")
+        document.getElementById("modal").classList.add("hidden")
       }
 
       let div = document.getElementById("modal")
