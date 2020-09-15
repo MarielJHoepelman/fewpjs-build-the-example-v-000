@@ -12,7 +12,6 @@ for (const likedButton of likedButtons) {
     mimicServerCall()
     .then(function(object) {
       let glyph = likedButton.querySelector(".like-glyph");
-      console.log(glyph)
       glyph.innerHTML = FULL_HEART
     })
     .catch(function(error) {
