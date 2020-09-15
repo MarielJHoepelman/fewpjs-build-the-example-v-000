@@ -12,7 +12,7 @@ for (const likedButton of likedButtons) {
     mimicServerCall()
     .then(function(object) {
       // let glyph = document.getElementsByClassName()
-      console.log(glyph)
+      console.log(likedButton)
 
     })
     .catch(function(error) {
