@@ -29,7 +29,7 @@ for (const likedButton of likedButtons) {
         document.getElementById("modal").classList.add("hidden")
       }
 
-      let div = document.getElementById("modal")
+      const div = document.getElementById("modal")
       div.classList.remove("hidden")
       document.getElementById("modal-message").innerHTML = error
       setTimeout(hideError, 5000);
