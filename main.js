@@ -10,6 +10,12 @@ for (const glyph of glyphs) {
   glyph.addEventListener('click', event =>  {
     // console.log(event.target)
     mimicServerCall()
+    .then(function(object) {
+      console.log(object)
+    })
+    .catch(function(error) {
+      console.log(object)
+    });
   })
 }
 
